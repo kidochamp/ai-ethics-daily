@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Algorithmic Bias in Loan Approvals - AI Ethics Daily</title>
+  <meta name="description" content="In-depth analysis of demographic bias uncovered in loan approval models and regulatory responses." />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <style>
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:#e5e7eb;background:#0b1220}
+    a{color:#93c5fd;text-decoration:none}
+    header,footer{background:#0f172a}
+    .container{max-width:900px;margin:0 auto;padding:0 1.25rem}
+    .top{display:flex;align-items:center;justify-content:space-between;padding:1rem 0;border-bottom:1px solid rgba(148,163,184,.15)}
+    .brand{display:flex;align-items:center;gap:.6rem;color:#fff;font-weight:800}
+    .nav a{color:#9aa4b2;margin-left:.75rem}
+    .hero{position:relative;overflow:hidden;border-radius:16px;margin:1.25rem 0}
+    .hero img{width:100%;height:360px;object-fit:cover;display:block;filter:saturate(1.05) contrast(1.05)}
+    h1{margin:.9rem 0 0;font-size:clamp(1.6rem,2.8vw,2.2rem)}
+    .meta{color:#9aa4b2;margin:.35rem 0 1rem}
+    article{background:#111827;border:1px solid rgba(148,163,184,.14);border-radius:16px;padding:1.25rem}
+    article p{line-height:1.7;color:#dbe1ea}
+    article h2{margin:1.25rem 0 .5rem}
+    .callout{background:#0f172a;border-left:3px solid #60a5fa;padding:.85rem;border-radius:8px}
+    footer{margin:2rem 0 0;border-top:1px solid rgba(148,163,184,.12)}
+    .back{display:inline-flex;align-items:center;gap:.4rem;margin:1rem 0}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container top">
+      <a class="brand" href="index.html"><span aria-hidden="true">🤖</span> AI Ethics Daily</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#latest">Latest</a>
+        <a href="index.html#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <a class="back" href="index.html">← Back to Home</a>
+    <div class="hero">
+      <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop" alt="Abstract scales of justice with code" />
+    </div>
+
+    <h1>Algorithmic Bias in Loan Approvals Prompts Regulatory Scrutiny</h1>
+    <div class="meta">September 20, 2025 • AI Bias & Algorithmic Accountability</div>
+
+    <article>
+      <p>New investigations conducted by academic labs and civil society groups reveal measurable demographic bias in automated loan approval systems used by several large financial institutions. The analyses identified disparate approval rates and interest terms across protected classes even after controlling for creditworthiness signals.</p>
+      <p>Regulators have responded by requesting detailed model documentation, dataset composition disclosures, and post‑deployment monitoring plans. Financial institutions face timelines to demonstrate remediation, including bias mitigation strategies and human‑in‑the‑loop overrides for edge cases.</p>
+
+      <h2>What drove the bias</h2>
+      <p>Audits attribute part of the disparity to proxy variables—location, transaction patterns, and device metadata—that correlate with protected attributes. These signals were not recognized as sensitive during feature engineering, allowing inequities to propagate into predictions.</p>
+
+      <h2>Mitigation and governance</h2>
+      <ul>
+        <li>Perform pre‑deployment fairness testing across multiple slices (race, age, gender, disability) with confidence intervals.</li>
+        <li>Adopt interpretable modeling or post‑hoc explainers to justify adverse actions with specific, human‑readable reasons.</li>
+        <li>Implement counterfactual fairness checks and adversarial debiasing during training.</li>
+        <li>Establish continuous monitoring with drift alerts and periodic re‑certification.</li>
+      </ul>
+
+      <div class="callout">
+        Tip: Pair quantitative metrics (EO, DP, AUC parity) with qualitative review from compliance and community stakeholders to capture blind spots.
+      </div>
+
+      <h2>Why it matters</h2>
+      <p>Credit access underpins mobility and small‑business growth. Ensuring equitable automated decisions is not just a compliance task—it is essential to public trust in AI‑enabled finance.</p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 AI Ethics Daily • <a href="index.html">Home</a></p>
+    </div>
+  </footer>
+</body>
+</html>
